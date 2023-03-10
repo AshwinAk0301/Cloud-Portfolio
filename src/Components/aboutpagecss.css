@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+     
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+  
+
+body{
+     
+    background-color: rgb(66, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    
+}
+
+.container
+{
+    position:relative;
+    width: 96%;
+    top: 100px;
+    max-width: 1300px;
+    min-height: 1400px;
+    background: #fff;
+    display: grid;
+    margin: 1px;
+    margin-left: 2%;
+     height: -20px;    
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px;
+}
+
+.container .left_side
+{
+    position:relative;
+    background:rgb(122, 121, 121);
+    padding: 30px;
+    
+}
+
+.profileText
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:15px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    
+}
+.profileText h2
+{
+    margin-left: -10%;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem ;
+
+}
+
+.profileText h2 span
+{
+    font-size:0.8em;
+    font-weight:300;
+}
+
+.left_side .profileText .imgBox img
+{
+    position: relative;
+    width: 80%;    
+    border-radius: 50;
+    margin-left: 10%;   
+}
+.left_side .profileText h2
+{
+    color:#fff;
+}
+
+ 
+.title
+{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+     
+}
+ 
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li 
+{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+    cursor: pointer;
+}
+
+.right_side .contactInfo  span
+{
+   
+    width:10px;
+    font-size:18px;
+    color: black;
+} 
+
+.contactInfo ul li span
+{
+    color:black;
+    font-weight:500;
+}
+
+.Education
+{
+    padding-top: 20px;
+}
+
+.Education h4
+{  
+   color: #fff;
+   font-size: 1rem;
+   font-weight: 300;
+   line-height: 1.4rem;
+}
+
+.Education li
+{
+    padding: 10px;
+    list-style: none;
+    margin-left:-3%;
+} 
+
+
+
+.right_side .projects .p2 .contents
+
+{
+    margin-top: -10%;
+    color:black
+}
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+ 
+
+ .skill ul li
+{
+    list-style: none;
+
+}
+.project ul li
+{
+    list-style: none;
+
+}
+
+.project 
+{
+    margin-top: 5%;
+}
+
+.knowledge h2
+{
+margin-top:2%;
+}
+
+.knowledge ul li 
+{
+    list-style:  inside;
+}
+
+
+
+.project .p1 .contents h3
+{
+    margin-top: 1%;
+    margin-left: 1px;
+}
+
+.project .p1 .contents h4
+{
+    margin-top: 2px;
+    color:black;
+    margin-left: 1px;
+}
+.project .p1 .contents ul
+{
+     margin-left:1px;
+}
+
+.project .p1 .contents ul li
+{
+    list-style:  inside;
+}
+
+.project .p1 .contents p
+{
+    margin-top: 10px;
+    color:black;
+    margin-left: 1px;
+    font-style: bold;
+}
+ 
+
+.project .p2 .contents h3
+{
+    margin-top: 1%;
+    margin-left: 1px;
+    color:black;
+}
+
+.project .p2 .contents h4
+{
+    margin-top: 2px;
+    color:black;
+    margin-left: 1px;
+}
+.project .p2 .contents ul li
+{
+     margin-left:1px;
+     color:black;
+     list-style: inside;
+}
+
+.project .p2 .contents p
+{
+    margin-top: 5%;
+    color:black;
+    margin-left: 1px;
+    font-style: bold;
+}
+
+.container .project .p3 .contents h3
+{
+    margin-top: 1%;
+    margin-left: 1px;
+    color:black;
+}
+
+.project .p3 .contents h4
+{
+    margin-top: 2px;
+    color:black;
+    margin-left: 1px;
+}
+.project .p3 .contents ul li
+{
+     margin-left:1px;
+     color:black;
+     list-style: inside;
+}
+
+.project .p3 .contents p
+{
+    margin-top: 5%;
+    color:black;
+    margin-left: 1px;
+    font-style: bold;
+}

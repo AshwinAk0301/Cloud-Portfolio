@@ -1,0 +1,115 @@
+body
+{
+   background-color: rgb(124, 124, 114);
+   font-size: large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+
+.projimg::after    
+{
+    content: "";
+    width:30%;
+    height: 30%;
+    position: absolute;
+    top:0;
+    left:-100%;
+     
+    opacity: 0.9s;
+}
+.projbox .p1
+{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%; 
+    transform: translate(-50%,-50%);  
+    padding :20px;  
+    box-sizing: border-box;   
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);    
+    display: flex;   
+     
+}
+.projbox .p1 .content
+{
+     margin-left:3%;
+}
+.p1 h1
+{
+     color: dimgrey;
+}
+
+.p2 .content
+{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 32%;       
+    transform: translate(-50%,-50%);
+    padding :20px;
+    box-sizing: border-box;      
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: grid;   
+}
+
+.p2 .content
+{
+    margin-left:3%;
+    
+}
+
+.projbox .p3
+{
+    color: white;
+    position: absolute;
+    top: 158%;
+    left: 35%;     
+    transform: translate(-50%,-50%);
+    padding :20px;
+    box-sizing: border-box;
+     
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;   
+}
+
+ 
+ 
+
+
+
+.projbox .p4
+{
+    color:white;
+    position: absolute;
+    top: 204%;
+    left: 35%;     
+    transform: translate(-50%,-50%);
+    padding :20px;
+    box-sizing: border-box;     
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;   
+}
+
+.projbox .p4 .content
+{
+    margin-left:3%;
+}
+
+.projbox .p5
+{
+    color: white;
+    position: absolute;
+    top: 248%;
+    left: 35%;    
+    transform: translate(-50%,-50%);
+    padding :20px;
+    box-sizing: border-box;
+     
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;   
+}
+
+.projbox .p5 .content
+{
+    margin-left:3%;
+}

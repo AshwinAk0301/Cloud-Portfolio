@@ -1,0 +1,83 @@
+body
+{
+    background-color: rgb(124, 124, 114);
+   font-size: large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dev-back
+{
+    width: 75%;
+    height: 75%;
+    
+    background-position: center;
+    object-fit: cover;
+}
+
+.dev-back::after
+{
+    content: "";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0.4;
+}
+
+ 
+.dev-back::after
+{
+     content: "";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0.1;
+}
+.fed
+{
+    color: beige;
+    position: absolute;
+    top: 15%;
+    left: 5%; 
+    right: 20px;      
+    padding :20px;
+    box-sizing: border-box;          
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex ; 
+    
+} 
+
+.fed .content
+{
+    width:140%;
+    height: 100%;
+}
+.fed ul{
+   margin-top: -5%
+}
+
+ 
+.wd img
+{
+    border-radius: 30px;
+}
+
+.wdiimage
+{
+   top: 20px;
+   margin-right: 30px;
+   width:90%;
+   height: 65%;
+}
+ 
+.devimg
+{
+    width:140%;
+    height:140%;
+}
+  
